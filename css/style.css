@@ -1,0 +1,515 @@
+
+body {
+    background-color: #222831;
+    color:#EEEEEE;
+}
+h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color:#EEEEEE;
+}
+h3 span {
+    color:#00ADB5;
+}
+.container {
+    max-width: 1271px;
+}
+
+/* header-area */
+.header-area {
+    padding: 48px 0px;
+    border-bottom: 1px  #4a4e55 solid;
+}
+.header-area .logo-img {
+    display: inline-block;
+    padding-top:7px;
+
+}
+.main-menu ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: right;
+}
+.main-menu ul li {
+    padding-left: 48px;
+    list-style: none;
+}
+.main-menu ul li a {
+    text-decoration: none;
+    color:#EEEEEE;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Poppins", serif;
+}
+
+/* hero-area */
+
+.hero-area {
+    padding: 110px 0px;
+}
+.hero-left-content {
+    padding-left: 84px;
+    padding-top:0px;
+    position: relative;
+    top: -3px;
+}
+.hero-area h2 {
+    line-height: 95px;
+    font-family: "Poppins", serif;
+    font-size: 96px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+.hero-area h2 span {
+    color: #00ADB5;
+}
+.hero-area-button .hire-button {
+    background-color:#00ADB5;
+    border-radius: 24px;
+    width: 136px;
+    height: 47px; 
+    border: none;
+}
+.hero-area-button .hire-button a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    color: #EEEEEE;
+    text-decoration: none;
+}
+.hero-area-button .download-button {
+    border-radius: 24px;
+    background: rgba(57, 62, 70, 0.75);
+    border: none;
+    margin-left: 20px;
+}
+
+.hero-area-button .download-button a {
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 34px 10px 26px;
+    border-radius: 24px;
+    color: #EEEEEE;
+    text-decoration: none;
+}
+.hero-area-button .download-button a img {
+    position: relative;
+    left: 7px;
+}
+.hero-area .img-size {
+    max-width:401px;
+    margin-left: 49px;
+    margin-top: 8px;
+}
+.scroll-to-bottom_area {
+    padding-top: 143px;
+}
+.scroll-to-bottom {
+    padding-right: 43px;
+}
+
+/* about-content-area */
+.about-content-area {
+    padding: 219px 0px 126px;
+    border-bottom: 1px  #4a4e55 solid;
+}
+.about-img {
+    padding-left: 38px;
+    max-width: 706px;
+    position: relative;
+    top: -36px;
+}
+.about-content-area p {
+    padding-right: 117px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #EEEEEE;
+}
+.about-content-area p a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+/* recent-work */
+.recent-work {
+    margin-top: 122px;
+    background: url(../assets/texured-bg.png) repeat-x;
+}
+.recent-work ul {
+    padding-left: 23px;
+}
+.recent-work h3 {
+    margin-top: 286px;
+    margin-bottom: 26px;
+    padding-left: 24px;
+}
+.recent-work .tab-cards {
+    align-content: center;
+    background: #393E46;
+    border-radius: 16px;
+    height: 281px;
+    margin-top: 24px;
+    width: 92%;
+    margin-left: 24px;
+}
+/* Tab */
+.recent-work .nav-link {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    background:#393e46;
+    padding: 10px 32px;
+    margin-right: 17px;
+    border-radius: 24px;
+    color: #EEEEEE;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.recent-work .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #00ADB5;
+}
+.recent-work .tab-content {
+    margin-bottom: 279px;
+}
+
+/* project-in-mind */
+.project-in-mind {
+    padding: 249px 0px 246px;
+    border-bottom: 1px  #4a4e55 solid;
+}
+.form-field-text-area {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.project-in-mind .contact-form {
+    max-width: 600px;
+    float: right;
+}
+.project-in-mind h3 {
+    margin-bottom: -5px;
+    line-height: 78px;
+}
+.project-in-mind-image {
+    padding-right: 26px;
+}
+.mind-image {
+    max-width:272px;
+}
+.project-in-mind .contact-form label {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    color: #EEEEEE;
+}
+.project-in-mind .contact-form input {
+    background: rgba(57, 62, 70, 0.5);
+    border-radius: 16px;
+    color: rgba(238, 238, 238, 0.5);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    width: 288px;
+    height:58px;
+    padding-left: 24px;
+}
+.project-in-mind .contact-form textarea {
+    background: rgba(57, 62, 70, 0.5);
+    border-radius: 16px;
+    color: rgba(238, 238, 238, 0.5);
+    width: 600px;
+    height: 280px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+}
+.project-in-mind .contact-form button {
+    padding: 0px 37px 0px 29px;
+    height: 47px;
+    background: #00ADB5;
+    border-radius: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border: none;
+    left: 2px;
+    position: relative;
+}
+
+.project-in-mind .contact-form button img {
+    position: relative;
+    right: -5px;
+    top: 5px;
+}
+
+/* footer-area */
+.footer-area {
+    padding:112px 0px ;
+}
+.footer-area .footer-nav ul {
+    margin: 0 auto;
+    width: fit-content;
+    position: relative;
+    left: -18px;
+}
+.footer-area .footer-nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 31px;
+}
+.footer-area .footer-nav ul li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #EEEEEE;
+    text-decoration: none;
+}
+.footer-area .footer-nav ul li a img {
+    display: inline-block;
+    position: relative;
+    margin-right: 4px;
+}
+
+.footer-area .footer-social ul li {
+    padding: 0px 10px;
+}
+.footer-area .footer-social ul li a {
+    display: flex;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background: #393E46;
+    border-radius: 50px;
+    font-size: 10px;
+    
+}
+.footer-area .footer-social ul li a i{
+    margin: 0 auto;
+    padding: 0px;
+}
+.footer-social {
+    margin-top: 47px;
+    padding-bottom: 92px;
+}
+.disclamer-content p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(238, 238, 238, 0.75);
+}
+
+
+/* Media query */
+
+@media only screen and (max-width: 1250px) {
+    .about-content-area img {
+        width:100%;
+        max-width: none;
+        margin-left: 0px;
+    }
+    .recent-work .tab-cards {
+        margin-left: 0px;
+    }
+    .about-content-area p {
+        padding-right: 0px;
+    }
+    .project-in-mind .contact-form {
+        float: right;
+    }
+  }
+@media only screen and (max-width: 1230px) {
+    .hero-area .img-size {
+        width:100%;
+        max-width: none;
+        margin-left: 0px;
+    }
+    .recent-work {
+        margin-top: 158px;
+    }
+    .project-in-mind {
+        padding: 149px 0px 146px;
+        border-bottom: 1px #4a4e55 solid;
+    }
+    .hero-left-content {
+        padding-left:0px;
+    }
+    .hero-area h2 {
+        font-size:68px;
+    }
+    body .hero-area .scroll-to-bottom {
+        text-align: center !important;
+    }
+    .footer-area {
+        padding: 112px 0px 20px;
+    }
+    .recent-work .tab-content {
+        margin-bottom: 179px;
+    }
+    .about-content-area {
+        padding: 119px 0px 126px;
+    }
+    .scroll-to-bottom_area {
+        padding-top: 43px;
+    }
+  }
+  .disclamer-content p {
+    text-align: center;
+  }
+@media only screen and (max-width: 1130px) {
+    .recent-work .tab-cards {
+        width: auto;
+        margin-left: 0px;
+    }
+    .recent-work .tab-cards img {
+        width:100%;
+    }
+    .project-in-mind .contact-form textarea {
+        padding:20px;
+        max-width: 600px;
+        width:100%;
+    } 
+    .hero-area {
+        padding: 40px 0px;
+    }
+    .scroll-to-bottom_area {
+        padding-top: 10px;
+    }
+    .about-content-area {
+        padding: 50px 0px 30px;
+    }
+    .recent-work .tab-content {
+        margin-bottom: 50px;
+    }
+    .project-in-mind {
+        padding: 50px 0px 50px;
+    }
+    .recent-work {
+        margin-top: 50px;
+    }   
+  }
+  @media only screen and (max-width: 1030px) {
+    .project-in-mind .contact-form input {
+        width:100%;
+    }
+  }
+ @media only screen and (max-width:992px) {
+    .project-in-mind .contact-form input {
+        width:100%;
+    }
+    .about-content {
+        margin-bottom:50px;
+    }
+    .recent-work h3 {
+        margin-top: 50px;
+    }
+  }
+  @media only screen and (max-width:768px) {
+    .project-in-mind .contact-form {
+        max-width: 600%;
+    }
+    .project-in-mind .contact-form textarea {
+        padding: 20px;
+        max-width:100%;
+    }
+    .footer-area .footer-nav ul li a {
+        font-size: 13px;
+    }
+    .footer-area .footer-nav ul li {
+        padding: 0px 10px;
+    }
+
+    h3 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .project-in-mind-image {
+        margin:40px 0px;
+        padding-right: 26px;
+        text-align: center;
+    }
+    .mind-image {
+        float: none !important;
+    }
+    .recent-work .tab-cards img {
+        width: auto;
+        height: 90%;
+    }
+    .recent-work ul {
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .recent-work .nav-link { 
+        margin: 0px 10px;        
+    }
+    .about-content-area p {
+        text-align: center;
+    }
+    .hero-area h2 {
+        font-size:40px;
+        text-align: center;
+    }
+    .hero-left-content {
+        padding-left: 0px;
+        width: 100%;
+    }
+    .hero-area-button {
+        display: flex;
+    justify-content: center;
+    }
+    .hero-area-button button {
+        border: none;
+        margin:10px;
+    }
+    .mlogo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .main-menu ul li {
+        padding: 0px 10px;
+  }
+  .main-menu ul {
+    display: flex;
+    justify-content:center;
+}
+}
+@media only screen and (max-width:375px) {
+    .recent-work .tab-cards img {
+        width: 90%;
+        height: auto;
+    }
+    .hero-area-button .download-button a, .hero-area-button .hire-button a {
+        font-size: 15px;
+    }
+    .hero-area-button .download-button {
+        margin: 0px;
+    }
+    .recent-work .nav-link {
+        font-size: 14px;
+        padding: 10px 12px;
+        margin:5px;
+        border-radius: 10px;
+    }
+ 
+}
+  
+
